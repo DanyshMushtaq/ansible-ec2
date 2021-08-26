@@ -55,7 +55,7 @@
       image: "{{ ami_id }}"
       key_name: "{{ key_name }}"
       instance_tags:
-            Name: "{{ tags_used }}"
+            Name: "{{ ec2_hostname }}"
       exact_count: 1
       count_tag:
             Name: "{{ tags_used }}"

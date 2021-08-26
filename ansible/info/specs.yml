@@ -10,7 +10,8 @@ instance_type: t2.micro
 key_name: ramit-rean
 
 # Tags
-tags_used: aws-docker-ansible 
+tags_used: aws-docker-ansible
+ec2_hostname: syn-app 
 
 # CIDR Range
 cidr_range: */32
